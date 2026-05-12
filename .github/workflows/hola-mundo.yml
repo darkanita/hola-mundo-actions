@@ -52,6 +52,15 @@ jobs:
         run: |
           echo "--- Archivos en el repositorio ---"
           ls -la
+      - name: "Sobre mi"
+        run: |
+          echo "==========================================="
+          echo "  Nombre:      Ana Lopez"
+          echo "  Programa:    ISD"
+          echo "  Institucion: IU Digital de Antioquia"
+          echo "  Fecha:       $(date)"
+          echo "  Mi primer Action funciona!"
+          echo "==========================================="
  
       - name: "Deploy completado"
         run: |
@@ -66,3 +75,6 @@ jobs:
           echo "  Felicidades!"
           echo ""
           echo "==========================================="
+
+
+
